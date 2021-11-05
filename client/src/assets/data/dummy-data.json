@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "university": "convenant university of Nigeria",
+    "program": "international and national relationship and social views",
+    "location": "Amsterdam, Sweden"
+  },
+  {
+    "id": 2,
+    "university": "Michael Okpara University of Agriculture",
+    "program": "Bussiness and human interaction awareness",
+    "location": "Umuahia, Nigeria"
+  },
+  {
+    "id": 3,
+    "university": "Newtown university of art and social cum cutural bridge",
+    "program": "international journalism and nation politics",
+    "location": "San francisco, United State"
+  },
+  {
+    "id": 4,
+    "university": "Graceland grassroot university",
+    "program": "Human and Animal health protection",
+    "location": "I dont know where, Netherlands"
+  },
+  {
+    "id": 5,
+    "university": "Music and Dance court",
+    "program": "Music relationship and genres identification",
+    "location": "Mumbai, India"
+  }
+]
