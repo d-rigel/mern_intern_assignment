@@ -51,7 +51,7 @@ export const EditSchoolForm = () => {
         </>
       ) : (
         <>
-          <Container className=" mb-3 mt-3 bg-light add-new-university w-50">
+          <Container className=" mb-3 mt-3 bg-light add-new-university w-70">
             <Row>
               <h1 className="text-center text-info mt-3">Update School</h1>
               <hr />
