@@ -74,7 +74,7 @@ export const AddSchoolForm = () => {
 
   return (
     <div>
-      <Container className=" mb-3 mt-3 bg-light add-new-school w-50">
+      <Container className=" mb-3 mt-3 bg-light add-new-school w-55">
         <Row>
           <h1 className="text-center text-info mt-3">Add New School</h1>
           <hr />
