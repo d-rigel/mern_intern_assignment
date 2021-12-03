@@ -108,6 +108,7 @@ router.delete("/:_id", async (req, res) => {
     const { _id } = req.params;
 
     const result = await deleteSchool(_id);
+    console.log("result from school router", result);
 
     return res.json({
       status: "success",
