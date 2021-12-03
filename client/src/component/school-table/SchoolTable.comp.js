@@ -43,7 +43,7 @@ export const SchoolTable = () => {
                   onClick={() =>
                     dispatch(deleteASchool(row._id)) && history.go(0)
                   }>
-                  <li className="fas fa-trash"></li>
+                  <li className="fas fa-trash fa-lg"></li>
                 </Button>
               </td>
             </tr>

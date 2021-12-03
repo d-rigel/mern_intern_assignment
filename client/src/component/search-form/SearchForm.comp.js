@@ -22,7 +22,7 @@ export const SearchForm = () => {
             <Form.Control
               type="text"
               name="searchStr"
-              placeholder="Search ..."
+              placeholder="Search..."
               // value={str}
               onChange={handleOnchange}
             />
