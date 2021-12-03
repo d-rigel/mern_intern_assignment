@@ -35,12 +35,12 @@ export const SchoolList = () => {
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col>
+        <Col sm={6}>
           <Link to="/add-schools">
             <Button variant="info">Add School</Button>
           </Link>
         </Col>
-        <Col className="text-end">
+        <Col className="text-end" sm={6}>
           <SearchForm />
         </Col>
       </Row>

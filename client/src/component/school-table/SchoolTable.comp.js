@@ -19,6 +19,7 @@ export const SchoolTable = () => {
         <tr>
           <th>School Name</th>
           <th>Details</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody>
@@ -33,7 +34,8 @@ export const SchoolTable = () => {
               <td>
                 <Link to={`/edit-school/${row._id}`}>
                   <Button className="me-md-4">
-                    <li className="fas fa-edit"></li>
+                    {/* <li className="fas fa-edit"></li> */}
+                    <li className="fas fa-edit fa-xs"></li>
                   </Button>
                 </Link>
 
@@ -43,7 +45,8 @@ export const SchoolTable = () => {
                   onClick={() =>
                     dispatch(deleteASchool(row._id)) && history.go(0)
                   }>
-                  <li className="fas fa-trash fa-lg"></li>
+                  {/* <li className="fas fa-trash fa-lg"></li> */}
+                  <li className="fas fa-trash"></li>
                 </Button>
               </td>
             </tr>

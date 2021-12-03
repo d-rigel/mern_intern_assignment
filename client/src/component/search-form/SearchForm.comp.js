@@ -15,14 +15,16 @@ export const SearchForm = () => {
     <div>
       <Form>
         <Form.Group as={Row}>
-          <Form.Label column sm={2}>
-            Search:
-          </Form.Label>
-          <Col sm={10}>
+          {/* <Col>
+            <Form.Label column sm={2}>
+              Search:
+            </Form.Label>
+          </Col> */}
+          <Col sm={12}>
             <Form.Control
               type="text"
               name="searchStr"
-              placeholder="Search..."
+              placeholder="Search school..."
               // value={str}
               onChange={handleOnchange}
             />
