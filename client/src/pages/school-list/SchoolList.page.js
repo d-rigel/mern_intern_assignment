@@ -37,7 +37,9 @@ export const SchoolList = () => {
       <Row className="mt-4">
         <Col sm={6}>
           <Link to="/add-schools">
-            <Button variant="info">Add School</Button>
+            <Button variant="info" className=" mb-2 ">
+              Add School
+            </Button>
           </Link>
         </Col>
         <Col className="text-end" sm={6}>

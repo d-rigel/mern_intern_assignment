@@ -114,8 +114,8 @@ export const EditSchoolForm = () => {
                       <Button
                         type="submit"
                         variant="info"
-                        className="mt-3 mb-5 w-100">
-                        Update School
+                        className="mt-3 mb-2 w-100">
+                        Update
                       </Button>
                     </Col>
 
