@@ -28,7 +28,7 @@ export const SchoolTable = () => {
             <tr key={row._id}>
               <td>{row.university}</td>
               <td>
-                <Link to={`/school/${row._id}`}>More...</Link>
+                <Link to={`/school/${row._id}`}>Read more...</Link>
               </td>
 
               <td>
