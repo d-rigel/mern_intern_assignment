@@ -28,19 +28,19 @@ export const SchoolTable = () => {
             <tr key={row._id}>
               <td>{row.university}</td>
               <td>
-                <Link to={`/school/${row._id}`}>Click to find out more</Link>
+                <Link to={`/school/${row._id}`}>More...</Link>
               </td>
 
               <td>
                 <Link to={`/edit-school/${row._id}`}>
-                  <Button className="me-md-4">
+                  <Button className="me-md-4 mb-1">
                     {/* <li className="fas fa-edit"></li> */}
                     <li className="fas fa-edit fa-xs"></li>
                   </Button>
                 </Link>
 
                 <Button
-                  className="ml-md-4"
+                  className="ml-md-4 mb-1"
                   variant="danger"
                   onClick={() =>
                     dispatch(deleteASchool(row._id)) && history.go(0)
